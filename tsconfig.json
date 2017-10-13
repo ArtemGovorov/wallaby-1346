@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "lib": [
+      "es2015",
+      "dom"
+    ],
+    "module": "esnext",
+    "moduleResolution": "node",
+    "paths": {
+      "*": [
+        "src/javascript/*"
+      ]
+    }
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}
